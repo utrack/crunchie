@@ -33,13 +33,18 @@ dpkg fails on tint2 package when installing user lists - restart the building an
 Used software
 ===
 Debian
+
 CrunchBang Linux and everything in it
+
 OpenSnap (https://github.com/lawl/opensnap)
+
 f.lux (https://justgetflux.com/linux.html) - uncomment the line in .config/openbox/autostart and replace example coordinates with yours
+
 oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh) - awesome tweaks for awesome shell!
 
 ===
 Included themes
 ===
 SlimOne OpenBox theme: http://box-look.org/content/show.php/SlimOne?content=76101
+
 Evolvere icons: http://xfce-look.org/content/show.php/Evolvere+Icon+theme?content=164368
