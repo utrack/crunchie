@@ -1,0 +1,23 @@
+#!/bin/sh
+
+WINDOW_ID="$1"
+SCREEN_WIDTH="$2"
+SCREEN_HEIGHT="$3"
+SCREEN_OFFSET_X="$4"
+SCREEN_OFFSET_Y="$5"
+
+eval $(xdotool getmouselocation --shell)
+RT_EDGE=$((SCREEN_WIDTH-50))
+if [ "$X" -lt 50 ]; then
+    ~/.config/opensnap/hit_left $1 $2 $3 $4 $5
+    exit;
+fi
+
+
+if [ "$X" -gt $RT_EDGE ]; then
+    ~/.config/opensnap/hit_right $1 $2 $3 $4 $5
+    exit;
+fi
+
+# maximize it vertically/horicontally via EWMH so padding (taskbar for example) is respected
+wmctrl -i -r "$WINDOW_ID" -b add,maximized_vert,maximized_horz

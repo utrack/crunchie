@@ -1,0 +1,9 @@
+#!/bin/sh
+
+lb config noauto \
+	--distribution wheezy \
+	--architectures amd64 \
+	--bootappend-live "boot=live config hostname=crunchie username=joe" \
+    --apt-http-proxy=http://localhost:3142 --apt-ftp-proxy=ftp://localhost:3142 \
+	--debian-installer live \
+	"${@}"

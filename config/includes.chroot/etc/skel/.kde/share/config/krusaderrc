@@ -1,0 +1,127 @@
+First Time=true
+Version=2.3.0-beta1
+
+[Archives]
+Supported Packers=tar,gzip,bzip2,lzma,unzip,zip,cpio,unrar,arj,unace,dpkg,7z
+lastUsedPacker=tar.gz
+
+[Custom Selection Mode]
+Immediate Context Menu=true
+Left Selects=true
+Right Preserves=false
+Right Selects=true
+ShiftCtrl Left Selects=true
+Space Moves Down=false
+
+[Dependencies]
+7z=/usr/bin/7z
+arj=/usr/bin/arj
+bzip2=/bin/bzip2
+checksum utility=/usr/bin/md5sum
+cpio=/bin/cpio
+dpkg=/usr/bin/dpkg
+gzip=/bin/gzip
+krusader=/usr/bin/krusader
+lzma=/usr/bin/lzma
+md5sum=/usr/bin/md5sum
+mount=/bin/mount
+sha1sum=/usr/bin/sha1sum
+sha224sum=/usr/bin/sha224sum
+sha256sum=/usr/bin/sha256sum
+sha384sum=/usr/bin/sha384sum
+sha512sum=/usr/bin/sha512sum
+tar=/bin/tar
+umount=/bin/umount
+unace=/usr/bin/unace
+unrar=/usr/bin/unrar
+unzip=/usr/bin/unzip
+zip=/usr/bin/zip
+
+[General]
+Editor=geany
+Terminal=terminator --working-directory=%d
+
+[KPropertiesDialog]
+Height 1024=432
+Width 1280=439
+
+[Konfigurator]
+Window Height=680
+Window Maximized=false
+Window Width=900
+
+[KrInterBriefView]
+Filelist Icon Size=22
+
+[KrInterDetailedView]
+Descending Sort Order=0
+Filelist Icon Size=22
+Sort Column=0
+
+[KrInterDetailedViewLeft]
+Descending Sort Order=0
+Saved State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t®\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x02|\x00\x00\x00\t\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x01e\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00y\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00
+Sort Column=0
+
+[KrInterDetailedViewRight]
+Descending Sort Order=0
+Saved State=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t®\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x02z\x00\x00\x00\t\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00dˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x01c\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00y\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00
+Sort Column=0
+
+[KrViewerWindow]
+Window Height=700
+Window Maximized=false
+Window Width=900
+
+[Look&Feel]
+FlatOriginBar=true
+Fullpath Tab Names=false
+Home Button Visible=true
+Mark Dirs=true
+Mouse Selection=3
+Show Hidden=true
+Show splashscreen=false
+SyncBrowse Button Visible=true
+Tab Bar Position=top
+Up Button Visible=false
+
+[PanelLayout]
+FrameColor=default
+Layout=default
+
+[Private]
+Height 1024=1025
+Maximized=true
+PopularUrls=
+PopularUrlsRank=
+Splitter Sizes=638,636
+Start Position=154,91
+Start Size=905,729
+Width 1280=1281
+cmdline history=
+
+[Protocols]
+Handled Protocols=tar,krarc,iso
+Mimes For iso=application/x-cd-image
+Mimes For krarc=application/zip,application/x-rpm,application/x-rar,application/x-lha,application/x-gzip,application/x-deb,application/x-cpio,application/x-arj,application/x-ace,application/x-7z-compressed
+Mimes For tar=application/x-tarz,application/x-tar,application/x-compressed-tar,application/x-bzip-compressed-tar
+
+[QueueManager]
+Active=0
+Queues=default
+
+[Startup]
+Left Active Tab=1
+Left Side Is Active=true
+Left Tab Bar[$e]=/,/home
+Left Tab Bar Icon Sizes=22,22
+Left Tab Bar Props=0,0
+Left Tab Bar Types=0,0
+Right Active Tab=0
+Right Tab Bar[$e]=/media
+Right Tab Bar Icon Sizes=22,22,22
+Right Tab Bar Props=0,0,0
+Right Tab Bar Types=0,0,0
+Show Terminal Emulator=false
+UI Save Settings=false
+Vertical Mode=false

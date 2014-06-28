@@ -1,0 +1,9 @@
+---
+autocomplete_always: 1
+autocomplete_brackets: 1
+autocomplete_subroutine: 1
+editor_font: 'Liberation Sans 10'
+info_on_statusbar: 1
+lang_perl5_autocomplete_min_chars: 2
+nth_startup: 3
+save_autoclean: 1

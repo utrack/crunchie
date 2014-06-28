@@ -1,0 +1,22 @@
+zenity xserver-xorg-input-all xserver-xorg-video-all
+cb-metapackage cb-tint2 cb-configs cb-conky cb-cowpowers cb-lock cb-pipemenus cb-wmhacks cb-welcome cb-slim cb-meta-libreoffice cb-lock cb-meta-vcs
+waldorf-slim-theme waldorf-ui-theme
+tumbler
+slimconf
+gmrun terminator iceweasel guake clementine thunar vlc-data vlc-plugin-notify
+gimp viewnior scrot padre perl-modules
+krusader kupfer
+xfburn xfce4-mixer xfce-keyboard-shortcuts xfce4-panel xfce4-power-manager xfce4-volumed xfconf
+xchat deluge
+geany
+obmenu obconf lxappearance nitrogen
+zsh build-essential command-not-found clipit crunchbang-icon-theme crunchbang-wallpapers
+figlet gawk
+geany-plugin-codenav geany-plugin-addons geany-plugin-prettyprinter geany-plugin-treebrowser
+xscreensaver
+virtualbox qtcreator xfonts-terminus
+perl-doc
+libapache2-mod-perl2 apache2
+gnupg cryptsetup pinentry-curses
+lvm2
+enigmail

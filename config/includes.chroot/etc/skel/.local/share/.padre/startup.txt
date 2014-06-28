@@ -1,0 +1,12 @@
+VERSION
+0.96
+main_singleinstance
+0
+main_singleinstance_port
+4444
+startup_splash
+0
+threads
+1
+threads_stacksize
+0

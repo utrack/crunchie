@@ -1,0 +1,3 @@
+echo "I: ***** Installing Apache::Registry Perl module... *****"
+#cpanm Apache::Registry
+echo "Skipped"
