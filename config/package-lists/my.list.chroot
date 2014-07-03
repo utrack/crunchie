@@ -14,9 +14,9 @@ zsh build-essential command-not-found clipit crunchbang-icon-theme crunchbang-wa
 figlet gawk
 geany-plugin-codenav geany-plugin-addons geany-plugin-prettyprinter geany-plugin-treebrowser
 xscreensaver
-virtualbox qtcreator xfonts-terminus
-perl-doc
+virtualbox xfonts-terminus
 libapache2-mod-perl2 apache2
 gnupg cryptsetup pinentry-curses
 lvm2
 enigmail
+steghide

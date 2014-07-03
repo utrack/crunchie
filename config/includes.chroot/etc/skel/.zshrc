@@ -77,7 +77,7 @@ echo "Storage:"
 df -h | grep "^/dev/"
 
 if [ -x /usr/games/cowsay -a -x /usr/games/fortune ]; then
-    fortune | cowsay
+    fortune | cowsay -f `ls /usr/share/cowsay/cows |shuf -n 1`
 fi
 
 if [[ $( date +%A ) != "Friday" ]]; then echo "Its not Friday :("; else echo "Yea Friday"; fi
