@@ -24,17 +24,15 @@ Tested on l-b v.3.0.5 (Debian Wheezy), use 4.x on your own risk.
     lb config
     sudo lb build
 
-===
+==
 Known issues
-===
+==
 dpkg fails on tint2 package when installing user lists - restart the building and it should work.
 
-===
-Used software
-===
-Debian
-
-CrunchBang Linux and everything in it
+==
+Included software
+==
+Debian (duh!)
 
 OpenSnap (https://github.com/lawl/opensnap)
 
@@ -42,9 +40,11 @@ f.lux (https://justgetflux.com/linux.html) - uncomment the line in .config/openb
 
 oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh) - awesome tweaks for awesome shell!
 
-===
+Check out config/package-lists for full list of packages installed during the building process.
+
+==
 Included themes
-===
+==
 SlimOne OpenBox theme: http://box-look.org/content/show.php/SlimOne?content=76101
 
 Evolvere icons: http://xfce-look.org/content/show.php/Evolvere+Icon+theme?content=164368
